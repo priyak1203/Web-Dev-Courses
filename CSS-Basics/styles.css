@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+}
+h4 {
+  color: blue;
+  border: 2px solid black;
+  text-transform: capitalize;
+  padding: 0.3rem;
+}
+p {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
