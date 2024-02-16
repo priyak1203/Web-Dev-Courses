@@ -1,3 +1,11 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Element/Type Selector */
 h1 {
   text-align: center;
 }
@@ -10,4 +18,31 @@ h4 {
 p {
   text-transform: capitalize;
   margin-left: 1rem;
+}
+
+/* Class Selector */
+.title {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  color: seagreen;
+  border: none;
+}
+
+.list {
+  list-style-type: disc;
+  margin: 0 2rem;
+  color: purple;
+}
+
+#main-title {
+  margin: 0 1rem;
+  margin-top: 1rem;
+  border: none;
+  color: crimson;
+}
+
+#main-list {
+  margin: 0 2rem;
+  list-style-type: disc;
+  color: maroon;
 }
