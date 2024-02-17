@@ -9,6 +9,10 @@
 h1 {
   text-align: center;
 }
+h3 {
+  margin: 0 2rem;
+  margin-top: 1rem;
+}
 h4 {
   color: blue;
   border: 2px solid black;
@@ -74,4 +78,34 @@ span {
 
 .bg-orange {
   background-color: #ffa500;
+}
+
+.font-styles {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.text-underline {
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 28px;
+  line-height: 4;
+  letter-spacing: 6px;
+  word-spacing: 20px;
+}
+
+.right-text {
+  text-align: right;
+  font-size: 28px;
 }
