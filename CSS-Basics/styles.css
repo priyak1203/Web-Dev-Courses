@@ -159,3 +159,22 @@ h4 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
 }
+
+/* Styling Tables */
+th,
+td {
+  border-bottom: 1px solid #ccc;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 1rem;
+}
+
+td {
+  text-align: center;
+  /* height: 50px;
+  vertical-align: bottom; */
+}
