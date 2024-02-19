@@ -22,7 +22,7 @@ h3 {
 p,
 span {
   text-transform: capitalize;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
 }
 
 /* Class Selector */
@@ -59,8 +59,8 @@ span {
 p,
 span {
   /* font-size: 1rem; */
-  margin: 1rem 2rem;
-  padding: 0.5rem;
+  /* margin: 1rem 2rem;
+  padding: 0.5rem; */
 }
 
 /* Color - Hex Value */
@@ -177,4 +177,17 @@ td {
   text-align: center;
   /* height: 50px;
   vertical-align: bottom; */
+}
+
+/* Display */
+
+.content-1 {
+  border: 1px solid red;
+  margin: 1rem;
+  display: inline;
+}
+.content-2 {
+  border: 1px solid blue;
+  margin: 1rem;
+  display: block;
 }
