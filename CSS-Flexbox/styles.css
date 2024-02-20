@@ -2,8 +2,15 @@ body {
   margin: 0;
 }
 
-.container {
+.container-1 {
   border: 6px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.container-2 {
+  border: 6px solid black;
+  display: inline-flex;
 }
 
 .flex-item {
