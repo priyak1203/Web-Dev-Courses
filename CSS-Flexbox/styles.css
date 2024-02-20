@@ -6,11 +6,28 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
+  flex-direction: row;
 }
 
 .container-2 {
   border: 6px solid black;
   display: inline-flex;
+  flex-direction: row-reverse;
+  margin-bottom: 1rem;
+}
+
+.container-3 {
+  border: 6px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.container-4 {
+  border: 6px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: column-reverse;
 }
 
 .flex-item {
