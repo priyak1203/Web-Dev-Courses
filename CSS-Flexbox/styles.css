@@ -6,34 +6,38 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
 }
 
 .container-2 {
   border: 6px solid black;
   display: inline-flex;
-  flex-direction: row-reverse;
   margin-bottom: 1rem;
-  flex-wrap: wrap-reverse;
+  /* flex-direction: row-reverse;
+  flex-wrap: wrap-reverse; */
+  flex-flow: row-reverse wrap-reverse;
 }
 
 .container-3 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-direction: column;
-  flex-wrap: wrap;
   height: 400px;
+  /* flex-direction: column;
+  flex-wrap: wrap; */
+  flex-flow: column wrap;
 }
 
 .container-4 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-direction: column-reverse;
-  flex-wrap: wrap-reverse;
   height: 400px;
+  /* flex-direction: column-reverse;
+  flex-wrap: wrap-reverse; */
+  flex-flow: column-reverse wrap-reverse;
 }
 
 .flex-item {
