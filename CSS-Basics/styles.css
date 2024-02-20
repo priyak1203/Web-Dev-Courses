@@ -274,3 +274,22 @@ td {
   height: 50vh;
   width: 50vw;
 }
+
+/* CSS Math Functions */
+.css-calc {
+  border: 1px solid #333;
+  margin-top: 20px;
+  height: calc(50vh - 100px);
+}
+
+.css-max {
+  margin-top: 20px;
+  border: 1px solid green;
+  width: max(50vw, 600px);
+}
+
+.css-min {
+  margin-top: 20px;
+  border: 1px solid purple;
+  width: min(50vw, 600px);
+}
