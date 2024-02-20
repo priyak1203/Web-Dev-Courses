@@ -245,3 +245,32 @@ td {
   top: 30px;
   left: 20px;
 }
+
+/* CSS Units */
+.em-container {
+  background-color: #eee;
+  font-size: 20px;
+  /* 1em = 20px  */
+  height: 2em;
+  /* 2em = 40px */
+}
+
+.em-child {
+  background-color: bisque;
+  font-size: 1.5em;
+  /* 1.5em = 30px */
+}
+
+.rem-container {
+  background-color: pink;
+  margin-top: 30px;
+  font-size: 2rem;
+  /* 1rem = 16px; */
+}
+
+.vp-container {
+  margin-top: 20px;
+  border: 1px solid #333;
+  height: 50vh;
+  width: 50vw;
+}
