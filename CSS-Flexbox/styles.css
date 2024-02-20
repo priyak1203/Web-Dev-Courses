@@ -6,12 +6,15 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
   /* flex-direction: row;
   flex-wrap: wrap; */
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   /* column-gap: 20px;
   row-gap: 10px; */
-  gap: 20px 10px;
+  /* gap: 20px 10px; */
   justify-content: flex-start;
 }
 
@@ -48,8 +51,9 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: row wrap;
-  gap: 20px 10px;
+  flex-flow: column wrap;
+  /* gap: 20px 10px; */
+  height: 500px;
   justify-content: flex-end;
 }
 
@@ -57,8 +61,9 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: row wrap;
-  gap: 20px 10px;
+  flex-flow: column wrap;
+  /* gap: 20px 10px; */
+  height: 500px;
   justify-content: center;
 }
 
@@ -66,8 +71,9 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: row wrap;
-  gap: 20px 10px;
+  flex-flow: column wrap;
+  /* gap: 20px 10px; */
+  height: 400px;
   justify-content: space-between;
 }
 
@@ -75,8 +81,9 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: row wrap;
-  gap: 20px 10px;
+  flex-flow: column wrap;
+  /* gap: 20px 10px; */
+  height: 400px;
   justify-content: space-around;
 }
 
@@ -84,8 +91,9 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: row wrap;
-  gap: 20px 10px;
+  flex-flow: column wrap;
+  /* gap: 20px 10px; */
+  height: 500px;
   justify-content: space-evenly;
 }
 
