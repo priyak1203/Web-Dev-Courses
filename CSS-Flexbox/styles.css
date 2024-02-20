@@ -9,6 +9,9 @@ body {
   /* flex-direction: row;
   flex-wrap: wrap; */
   flex-flow: row wrap;
+  /* column-gap: 20px;
+  row-gap: 10px; */
+  gap: 20px 10px;
 }
 
 .container-2 {
