@@ -179,7 +179,8 @@ body {
   gap: 10px 10px;
 }
 
-.item-3 {
+/* order */
+/* .item-3 {
   order: 1;
 }
 .item-7 {
@@ -187,4 +188,12 @@ body {
 }
 .item-9 {
   order: 1;
+} */
+
+/* flex-grow */
+.item-5 {
+  flex-grow: 1;
+}
+.item-6 {
+  flex-grow: 3;
 }
