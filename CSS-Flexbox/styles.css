@@ -118,7 +118,7 @@ body {
   padding: 1rem;
   text-align: center;
   /* flex-shrink: 0; */
-  width: 6rem;
+  /* width: 6rem; */
 }
 
 .item-1 {
@@ -170,6 +170,14 @@ body {
   background-color: #6b0803;
 }
 
+.item-f {
+  background-color: #ee660c;
+}
+
+.item-g {
+  background-color: #09ccf3;
+}
+
 .container-a {
   border: 6px solid black;
   display: flex;
@@ -205,6 +213,55 @@ body {
   flex-shrink: 4;
 } */
 
-.item-1 {
+/* flex-basis */
+/* .item-1 {
   flex-basis: 250px;
+} */
+
+/* flex  */
+.item-1 {
+  /* flex-grow: 2;
+  flex-shrink: 5;
+  flex-basis: 200px; */
+  flex: 2 5 200px;
+}
+
+/* One value, unitless number: flex-grow  */
+.item-2 {
+  flex: 2;
+}
+
+/* One value, width/height : flex-basis */
+.item-3 {
+  flex: 10em;
+}
+.item-4 {
+  flex: 30px;
+}
+
+/* flex: none | initial | auto; */
+.item-5 {
+  flex: none;
+}
+
+.item-6 {
+  flex: initial;
+}
+.item-7 {
+  flex: auto;
+}
+
+/* Two values: flex-grow | flex-basis  */
+.item-8 {
+  flex: 1 30px;
+}
+
+/* Two values: flex-grow | flex-shrink; */
+.item-9 {
+  flex: 2 2;
+}
+
+/* Three values : flex-grow | flex-shrink | flex-basis  */
+.item-d {
+  flex: 2 2 10%;
 }
