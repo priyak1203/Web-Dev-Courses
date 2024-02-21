@@ -6,7 +6,7 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   height: 500px;
   /* 
@@ -16,7 +16,8 @@ body {
   row-gap: 10px; */
   /* gap: 20px 10px; */
   /* justify-content: flex-start; */
-  align-items: stretch;
+  /* align-items: stretch; */
+  align-content: stretch;
 }
 
 .container-2 {
@@ -52,50 +53,64 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
   height: 500px;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-content: flex-start;
 }
 
 .container-6 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
   height: 500px;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  align-content: flex-end;
 }
 
 .container-7 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
   height: 500px;
-  align-items: center;
+  /* align-items: center; */
+  align-content: center;
 }
 
 .container-8 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
   height: 400px;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  align-content: space-between;
 }
 
 .container-9 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
   height: 500px;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  align-content: space-around;
+}
+
+.container-10 {
+  border: 6px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-flow: row wrap;
+  height: 500px;
+  align-content: space-evenly;
 }
 
 .flex-item {
