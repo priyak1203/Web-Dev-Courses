@@ -7,7 +7,7 @@ body {
   display: flex;
   margin-bottom: 1rem;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* height: 500px; */
 
   /* flex-flow: row wrap; */
@@ -117,6 +117,8 @@ body {
   font-size: 1.5rem;
   padding: 1rem;
   text-align: center;
+  /* flex-shrink: 0; */
+  width: 6rem;
 }
 
 .item-1 {
@@ -191,9 +193,14 @@ body {
 } */
 
 /* flex-grow */
-.item-5 {
+/* .item-5 {
   flex-grow: 1;
 }
 .item-6 {
   flex-grow: 3;
+} */
+
+/* flex-shrink */
+.item-3 {
+  flex-shrink: 4;
 }
