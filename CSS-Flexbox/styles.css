@@ -6,16 +6,17 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  height: 500px;
-  /* flex-direction: row;
+  height: 200px;
+  /* 
   flex-wrap: wrap; */
   /* flex-flow: row wrap; */
   /* column-gap: 20px;
   row-gap: 10px; */
   /* gap: 20px 10px; */
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  align-items: stretch;
 }
 
 .container-2 {
@@ -51,30 +52,30 @@ body {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
-  height: 500px;
-  justify-content: flex-end;
+  height: 200px;
+  align-items: flex-start;
 }
 
 .container-6 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
-  height: 500px;
-  justify-content: center;
+  height: 200px;
+  align-items: flex-end;
 }
 
 .container-7 {
   border: 6px solid black;
   display: flex;
   margin-bottom: 1rem;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   /* gap: 20px 10px; */
-  height: 400px;
-  justify-content: space-between;
+  height: 200px;
+  align-items: center;
 }
 
 .container-8 {
@@ -130,4 +131,35 @@ body {
 }
 .item-9 {
   background-color: #aad041;
+}
+
+.item-a {
+  background-color: #b4bf35;
+  padding-bottom: 3rem;
+}
+
+.item-b {
+  background-color: #b95f21;
+  padding-bottom: 5rem;
+}
+
+.item-c {
+  background-color: #1c4c56;
+  padding-bottom: 3rem;
+}
+.item-d {
+  background-color: #cfb276;
+}
+.item-e {
+  background-color: #6b0803;
+}
+
+.container-a {
+  border: 6px solid black;
+  display: flex;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 300px;
+  align-items: baseline;
 }
