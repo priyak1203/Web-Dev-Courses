@@ -8,7 +8,7 @@ body {
   margin-bottom: 1rem;
   flex-direction: row;
   /* flex-wrap: wrap; */
-  /* height: 500px; */
+  height: 200px;
 
   /* flex-flow: row wrap; */
   /* column-gap: 20px;
@@ -17,6 +17,7 @@ body {
   /* justify-content: flex-start; */
   /* align-items: stretch; */
   /* align-content: stretch; */
+  align-items: flex-end;
 }
 
 .container-2 {
@@ -219,28 +220,29 @@ body {
 } */
 
 /* flex  */
-.item-1 {
-  /* flex-grow: 2;
+/* .item-1 {
+  flex-grow: 2;
   flex-shrink: 5;
-  flex-basis: 200px; */
+  flex-basis: 200px;
+
   flex: 2 5 200px;
-}
+} */
 
 /* One value, unitless number: flex-grow  */
-.item-2 {
+/* .item-2 {
   flex: 2;
-}
+} */
 
 /* One value, width/height : flex-basis */
-.item-3 {
+/* .item-3 {
   flex: 10em;
 }
 .item-4 {
   flex: 30px;
-}
+} */
 
 /* flex: none | initial | auto; */
-.item-5 {
+/* .item-5 {
   flex: none;
 }
 
@@ -249,19 +251,40 @@ body {
 }
 .item-7 {
   flex: auto;
-}
+} */
 
 /* Two values: flex-grow | flex-basis  */
-.item-8 {
+/* .item-8 {
   flex: 1 30px;
-}
+} */
 
 /* Two values: flex-grow | flex-shrink; */
-.item-9 {
+/* .item-9 {
   flex: 2 2;
-}
+} */
 
 /* Three values : flex-grow | flex-shrink | flex-basis  */
-.item-d {
+/* .item-d {
   flex: 2 2 10%;
+} */
+
+/* align-self */
+.item-1 {
+  align-self: flex-start;
+}
+
+.item-2 {
+  align-self: flex-end;
+}
+
+.item-3 {
+  align-self: center;
+}
+
+.item-4 {
+  align-self: stretch;
+}
+
+.item-5 {
+  align-self: auto;
 }
