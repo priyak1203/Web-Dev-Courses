@@ -4,7 +4,37 @@ body {
 
 .container {
   border: 6px solid black;
+  margin-bottom: 2rem;
   display: grid;
+  grid-template-columns: 100px 200px 300px;
+}
+
+.container-1 {
+  border: 6px solid black;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+.container-2 {
+  border: 6px solid black;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+}
+
+.container-3 {
+  border: 6px solid black;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.container-4 {
+  border: 6px solid black;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
 }
 
 .grid-item {
