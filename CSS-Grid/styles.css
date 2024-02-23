@@ -12,6 +12,7 @@ body {
   /* row-gap: 20px;
   column-gap: 30px; */
   justify-items: stretch;
+  align-items: stretch;
 }
 
 .container-1 {
@@ -23,6 +24,7 @@ body {
   grid-template: 100px 150px 200px / 200px 200px 200px;
   /* gap: 30px 20px; */
   justify-items: start;
+  align-items: start;
 }
 
 .container-2 {
@@ -34,6 +36,7 @@ body {
   grid-template: repeat(3, 100px) / repeat(3, 1fr);
   /* gap: 2rem 5rem; */
   justify-items: end;
+  align-items: end;
 }
 
 .container-3 {
@@ -45,6 +48,7 @@ body {
   grid-template: repeat(3, 100px) 200px/ 1fr 2fr 1fr;
   /* gap: 4% 2%; */
   justify-items: center;
+  align-items: center;
 }
 
 .container-4 {
@@ -57,6 +61,7 @@ body {
   grid-template: repeat(3, 1fr) / repeat(3, minmax(200px, 1fr));
   /* gap: 10% 5%; */
   justify-items: center;
+  align-items: center;
 }
 
 .grid-item {
