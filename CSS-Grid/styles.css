@@ -188,16 +188,20 @@ body {
 
 .item-2 {
   justify-self: stretch;
+  align-self: stretch;
 }
 
 .item-2a {
   justify-self: start;
+  align-self: start;
 }
 
 .item-2b {
   justify-self: end;
+  align-self: end;
 }
 
 .item-2c {
   justify-self: center;
+  align-self: center;
 }
