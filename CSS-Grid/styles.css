@@ -19,7 +19,8 @@ body {
   /* justify-content: start;
   align-content: start; */
   /* place-content: start start; */
-  grid-auto-flow: row;
+  grid-auto-flow: column;
+  grid-auto-columns: 100px;
 }
 
 .container-1 {
