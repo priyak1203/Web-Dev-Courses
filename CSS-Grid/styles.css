@@ -150,19 +150,27 @@ body {
 .item-1 {
   grid-column-start: 1;
   grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
 }
 
 .item-1a {
   grid-column-start: 1;
   grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
 }
 
 .item-1b {
   grid-column-start: 1;
   grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
 }
 
 .item-1c {
   grid-column-start: 1;
   grid-column-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
 }
